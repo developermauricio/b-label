@@ -1,0 +1,771 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Singsong - Karoeke Rooms & Dj Clubbing Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/kit.wirastudio.co",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog Page",
+            "screenshot": "screenshots\/blog-page.jpg",
+            "source": "templates\/blog-page.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/template-kit\/blog-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.jpg",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/?elementor_library=404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/?elementor_library=single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Archive Blog",
+            "screenshot": "screenshots\/archive-blog.jpg",
+            "source": "templates\/archive-blog.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/?elementor_library=archive-blog",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Offcanvas Menu",
+            "screenshot": "screenshots\/offcanvas-menu.jpg",
+            "source": "templates\/offcanvas-menu.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/?elementor_library=offcanvas-menu",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Testimonials",
+            "screenshot": "screenshots\/testimonials.jpg",
+            "source": "templates\/testimonials.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/template-kit\/testimonials\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Official Artist",
+            "screenshot": "screenshots\/official-artist.jpg",
+            "source": "templates\/official-artist.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/template-kit\/official-artist\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Services",
+            "screenshot": "screenshots\/our-services.jpg",
+            "source": "templates\/our-services.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/template-kit\/our-services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Pricing",
+            "screenshot": "screenshots\/our-pricing.jpg",
+            "source": "templates\/our-pricing.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/template-kit\/our-pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Events",
+            "screenshot": "screenshots\/events.jpg",
+            "source": "templates\/events.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/template-kit\/events\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Gallery",
+            "screenshot": "screenshots\/our-gallery.jpg",
+            "source": "templates\/our-gallery.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/template-kit\/our-gallery\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/kit.wirastudio.co\/singsong\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.6.3",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.5.6",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "dance-club.jpg",
+            "thumbnail_url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/dance-club-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/blog-page.json",
+                    "name": "Blog Page"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/archive-blog.json",
+                    "name": "Archive Blog"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/official-artist.json",
+                    "name": "Official Artist"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/our-pricing.json",
+                    "name": "Our Pricing"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/our-gallery.json",
+                    "name": "Our Gallery"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 283803,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P6UNY7T"
+        },
+        {
+            "filename": "fococlipping-20220313-112359-1.png",
+            "thumbnail_url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/fococlipping-20220313-112359-1-800x858.png",
+            "templates": [
+                {
+                    "source": "templates\/blog-page.json",
+                    "name": "Blog Page"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/archive-blog.json",
+                    "name": "Archive Blog"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/official-artist.json",
+                    "name": "Official Artist"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/our-pricing.json",
+                    "name": "Our Pricing"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/our-gallery.json",
+                    "name": "Our Gallery"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 308324,
+            "dimensions": [
+                1192,
+                1278
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KEQG96J"
+        },
+        {
+            "filename": "dj-in-nightclub.jpg",
+            "thumbnail_url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/dj-in-nightclub-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/our-gallery.json",
+                    "name": "Our Gallery"
+                }
+            ],
+            "filesize": 209673,
+            "dimensions": [
+                2000,
+                1334
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PWP4EH8"
+        },
+        {
+            "filename": "logoipsum-logo-9-3.png",
+            "thumbnail_url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/logoipsum-logo-9-3.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2045,
+            "dimensions": [
+                152,
+                19
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logoipsum-logo-7-2.png",
+            "thumbnail_url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/logoipsum-logo-7-2.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2126,
+            "dimensions": [
+                124,
+                32
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logoipsum-logo-6-2.png",
+            "thumbnail_url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/logoipsum-logo-6-2.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 1715,
+            "dimensions": [
+                134,
+                34
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logoipsum-logo-8-3.png",
+            "thumbnail_url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/logoipsum-logo-8-3.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 1797,
+            "dimensions": [
+                140,
+                30
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "group-of-young-intercultural-friends-singing-karaoke-while-sitting-on-couch.jpg",
+            "thumbnail_url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/group-of-young-intercultural-friends-singing-karaoke-while-sitting-on-couch-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/our-pricing.json",
+                    "name": "Our Pricing"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/our-gallery.json",
+                    "name": "Our Gallery"
+                }
+            ],
+            "filesize": 405844,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-QYXPP6J"
+        },
+        {
+            "filename": "dj-carnage.jpg",
+            "thumbnail_url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/dj-carnage-800x526.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/official-artist.json",
+                    "name": "Official Artist"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/our-gallery.json",
+                    "name": "Our Gallery"
+                }
+            ],
+            "filesize": 364134,
+            "dimensions": [
+                2000,
+                1315
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-XLGQTXY"
+        },
+        {
+            "filename": "man-with-curly-hair-using-dj-equipment-and-standing-in-the-dark-neon-lighted-room.jpg",
+            "thumbnail_url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/man-with-curly-hair-using-dj-equipment-and-standing-in-the-dark-neon-lighted-room-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/official-artist.json",
+                    "name": "Official Artist"
+                },
+                {
+                    "source": "templates\/our-gallery.json",
+                    "name": "Our Gallery"
+                }
+            ],
+            "filesize": 291371,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-JE3ESDC"
+        },
+        {
+            "filename": "cute-dj-woman-having-fun-playing-music-at-club-party.jpg",
+            "thumbnail_url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/cute-dj-woman-having-fun-playing-music-at-club-party-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/official-artist.json",
+                    "name": "Official Artist"
+                },
+                {
+                    "source": "templates\/our-gallery.json",
+                    "name": "Our Gallery"
+                }
+            ],
+            "filesize": 360234,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PBRCCNH"
+        },
+        {
+            "filename": "dj-music-beautiful-girl-with-headphones.jpg",
+            "thumbnail_url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/dj-music-beautiful-girl-with-headphones-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/official-artist.json",
+                    "name": "Official Artist"
+                },
+                {
+                    "source": "templates\/our-gallery.json",
+                    "name": "Our Gallery"
+                }
+            ],
+            "filesize": 307167,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-G4UBZWX"
+        },
+        {
+            "filename": "colorful-portrait-in-blue-and-pink-ligth-of-a-young-dj-woman-wearing-headset-and-enjoying-an.jpg",
+            "thumbnail_url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/colorful-portrait-in-blue-and-pink-ligth-of-a-young-dj-woman-wearing-headset-and-enjoying-an-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/official-artist.json",
+                    "name": "Official Artist"
+                },
+                {
+                    "source": "templates\/our-gallery.json",
+                    "name": "Our Gallery"
+                }
+            ],
+            "filesize": 282270,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KEQG96J"
+        },
+        {
+            "filename": "Singsong-Logo.png",
+            "thumbnail_url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/Singsong-Logo-800x141.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 11968,
+            "dimensions": [
+                906,
+                160
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

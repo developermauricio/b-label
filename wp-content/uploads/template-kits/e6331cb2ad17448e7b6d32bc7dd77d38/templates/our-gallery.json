@@ -1,0 +1,1245 @@
+{
+    "version": "0.4",
+    "title": "Our Gallery",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "4a21be62",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "structure": "20",
+                "padding": {
+                    "unit": "px",
+                    "top": "200",
+                    "right": "50",
+                    "bottom": "0",
+                    "left": "50",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "250",
+                    "right": "15",
+                    "bottom": "0",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/dance-club.jpg",
+                    "id": 109,
+                    "alt": "Dance club",
+                    "source": "library"
+                },
+                "background_position": "center center",
+                "background_attachment": "fixed",
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "background_overlay_color": "#000000",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.65000000000000002220446049250313080847263336181640625,
+                    "sizes": []
+                }
+            },
+            "elements": [
+                {
+                    "id": "5052db51",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": null,
+                        "_inline_size_tablet": 100,
+                        "padding": {
+                            "unit": "px",
+                            "top": "100",
+                            "right": "25",
+                            "bottom": "100",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_tablet": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "112cad4e",
+                            "settings": {
+                                "view": "inline",
+                                "icon_list": [
+                                    {
+                                        "text": "Homepage",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "_id": "a6492a2",
+                                        "__dynamic__": {
+                                            "link": "[elementor-tag id=\"9fe21b2\" name=\"site-url\" settings=\"%7B%7D\"]"
+                                        }
+                                    },
+                                    {
+                                        "text": "Homepage",
+                                        "selected_icon": {
+                                            "value": "fas fa-angle-right",
+                                            "library": "fa-solid"
+                                        },
+                                        "__dynamic__": {
+                                            "text": "[elementor-tag id=\"c5b3f1c\" name=\"page-title\" settings=\"%7B%7D\"]",
+                                            "link": "[elementor-tag id=\"13ffa9e\" name=\"post-url\" settings=\"%7B%7D\"]"
+                                        },
+                                        "_id": "062367d"
+                                    }
+                                ],
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "icon_size": {
+                                    "unit": "px",
+                                    "size": 19,
+                                    "sizes": []
+                                },
+                                "text_color": "#FFFFFF",
+                                "_border_width": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "text_color_hover": "globals\/colors?id=primary",
+                                    "icon_color": "globals\/colors?id=primary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon-list",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "5f019a59",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-square-full",
+                                    "library": "fa-solid"
+                                },
+                                "align": "left",
+                                "size": {
+                                    "unit": "px",
+                                    "size": 90,
+                                    "sizes": []
+                                },
+                                "_transform_rotate_popover": "transform",
+                                "_transform_rotateZ_effect": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "_element_width": "auto",
+                                "__globals__": {
+                                    "primary_color": "globals\/colors?id=secondary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "3a6c9a4e",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-square-full",
+                                    "library": "fa-solid"
+                                },
+                                "align": "left",
+                                "size": {
+                                    "unit": "px",
+                                    "size": 90,
+                                    "sizes": []
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "25",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "-65",
+                                    "isLinked": false
+                                },
+                                "_transform_rotate_popover": "transform",
+                                "_transform_rotateZ_effect": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "_element_width": "auto",
+                                "__globals__": {
+                                    "primary_color": "globals\/colors?id=7f20f40"
+                                },
+                                "_margin_mobile": {
+                                    "unit": "px",
+                                    "top": "25",
+                                    "right": "0",
+                                    "bottom": "-100",
+                                    "left": "-65",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "36e802d6",
+                            "settings": {
+                                "title": "Add Your Heading Text Here",
+                                "header_size": "h1",
+                                "_margin": {
+                                    "unit": "%",
+                                    "top": "-15",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_margin_tablet": {
+                                    "unit": "%",
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": "",
+                                    "isLinked": true
+                                },
+                                "_margin_mobile": {
+                                    "unit": "%",
+                                    "top": "-30",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__dynamic__": {
+                                    "title": "[elementor-tag id=\"aabca0f\" name=\"page-title\" settings=\"%7B%7D\"]"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "396a791",
+                            "settings": {
+                                "_margin_tablet": {
+                                    "unit": "px",
+                                    "top": "-50",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_margin_mobile": {
+                                    "unit": "px",
+                                    "top": "-50",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "53d8baba",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": null,
+                        "_inline_size_tablet": 100,
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "25",
+                            "isLinked": false
+                        },
+                        "padding_tablet": {
+                            "unit": "px",
+                            "top": "25",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "content_position": "bottom"
+                    },
+                    "elements": [
+                        {
+                            "id": "1bdb15e3",
+                            "settings": {
+                                "image": {
+                                    "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/fococlipping-20220313-112359-1.png",
+                                    "id": 270
+                                },
+                                "align": "right",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 60,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "space": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "58466605",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "50",
+                    "bottom": "100",
+                    "left": "50",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "50",
+                    "right": "15",
+                    "bottom": "50",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "structure": "30"
+            },
+            "elements": [
+                {
+                    "id": "1a36c2ed",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null,
+                        "_inline_size_tablet": 50,
+                        "space_between_widgets": 30,
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "20",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_tablet": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "12.5",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "animation": "fadeInUp"
+                    },
+                    "elements": [
+                        {
+                            "id": "7d43caf3",
+                            "settings": {
+                                "image": {
+                                    "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/group-of-young-intercultural-friends-singing-karaoke-while-sitting-on-couch.jpg",
+                                    "id": 90,
+                                    "alt": "Group of young intercultural friends singing karaoke while sitting on couch",
+                                    "source": "library"
+                                },
+                                "image_size": "custom",
+                                "image_custom_dimension": {
+                                    "width": "800",
+                                    "height": "500"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "6e7dc3b0",
+                            "settings": {
+                                "image": {
+                                    "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/colorful-portrait-in-blue-and-pink-ligth-of-a-young-dj-woman-wearing-headset-and-enjoying-an.jpg",
+                                    "id": 262,
+                                    "alt": "Colorful portrait in blue and pink ligth of a young DJ woman wearing headset and enjoying an",
+                                    "source": "library"
+                                },
+                                "image_size": "custom",
+                                "image_custom_dimension": {
+                                    "width": "800",
+                                    "height": "500"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "debe95",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null,
+                        "_inline_size_tablet": 50,
+                        "content_position": "center",
+                        "background_background": "classic",
+                        "background_image": {
+                            "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/dj-carnage.jpg",
+                            "id": 59,
+                            "alt": "DJ Carnage",
+                            "source": "library"
+                        },
+                        "background_position": "center center",
+                        "background_size": "cover",
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "10",
+                            "bottom": "0",
+                            "left": "10",
+                            "isLinked": false
+                        },
+                        "margin_tablet": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "12.5",
+                            "isLinked": false
+                        },
+                        "margin_mobile": {
+                            "unit": "px",
+                            "top": "25",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "150",
+                            "right": "0",
+                            "bottom": "150",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "animation": "fadeInUp",
+                        "animation_delay": 200
+                    },
+                    "elements": [
+                        {
+                            "id": "2851e3f",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-play",
+                                    "library": "fa-solid"
+                                },
+                                "view": "framed",
+                                "primary_color": "#FFFFFF",
+                                "hover_animation": "grow",
+                                "size": {
+                                    "unit": "px",
+                                    "size": 35,
+                                    "sizes": []
+                                },
+                                "icon_padding": {
+                                    "unit": "px",
+                                    "size": 45,
+                                    "sizes": []
+                                },
+                                "border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "_element_vertical_align": "center",
+                                "__globals__": {
+                                    "hover_primary_color": "globals\/colors?id=primary"
+                                },
+                                "__dynamic__": {
+                                    "link": "[elementor-tag id=\"db4e56e\" name=\"lightbox\" settings=\"%7B%22type%22%3A%22video%22%2C%22video_url%22%3A%22https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DXHOmBV4js_E%22%7D\"]"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "7fb105ab",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null,
+                        "_inline_size_tablet": 100,
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "20",
+                            "isLinked": false
+                        },
+                        "padding_tablet": {
+                            "unit": "px",
+                            "top": "25",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "animation": "fadeInUp",
+                        "animation_delay": 400
+                    },
+                    "elements": [
+                        {
+                            "id": "5b4a443",
+                            "settings": {
+                                "image": {
+                                    "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/dance-club.jpg",
+                                    "id": 109,
+                                    "alt": "Dance club",
+                                    "source": "library"
+                                },
+                                "image_size": "custom",
+                                "image_custom_dimension": {
+                                    "width": "800",
+                                    "height": "500"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "e847e0b",
+                            "settings": {
+                                "image": {
+                                    "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/dj-in-nightclub.jpg",
+                                    "id": 69,
+                                    "alt": "Dj in nightclub",
+                                    "source": "library"
+                                },
+                                "image_size": "custom",
+                                "image_custom_dimension": {
+                                    "width": "800",
+                                    "height": "500"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "3ef7c5b3",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "150",
+                    "right": "50",
+                    "bottom": "250",
+                    "left": "50",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "150",
+                    "right": "15",
+                    "bottom": "250",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/dance-club.jpg",
+                    "id": 109,
+                    "alt": "Dance club",
+                    "source": "library"
+                },
+                "background_position": "center center",
+                "background_attachment": "fixed",
+                "background_size": "cover",
+                "background_overlay_background": "gradient",
+                "background_overlay_gradient_angle": {
+                    "unit": "deg",
+                    "size": 90,
+                    "sizes": []
+                },
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.65000000000000002220446049250313080847263336181640625,
+                    "sizes": []
+                },
+                "__globals__": {
+                    "background_overlay_color": "globals\/colors?id=secondary",
+                    "background_overlay_color_b": "globals\/colors?id=primary"
+                }
+            },
+            "elements": [
+                {
+                    "id": "228f4d73",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "4a955768",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-play",
+                                    "library": "fa-solid"
+                                },
+                                "view": "framed",
+                                "primary_color": "#FFFFFF",
+                                "hover_animation": "grow",
+                                "size": {
+                                    "unit": "px",
+                                    "size": 35,
+                                    "sizes": []
+                                },
+                                "icon_padding": {
+                                    "unit": "px",
+                                    "size": 45,
+                                    "sizes": []
+                                },
+                                "border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "_element_vertical_align": "center",
+                                "__globals__": {
+                                    "hover_primary_color": "globals\/colors?id=primary"
+                                },
+                                "__dynamic__": {
+                                    "link": "[elementor-tag id=\"db4e56e\" name=\"lightbox\" settings=\"%7B%22type%22%3A%22video%22%2C%22video_url%22%3A%22https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DXHOmBV4js_E%22%7D\"]"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "7d9af20f",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "50",
+                    "bottom": "50",
+                    "left": "50",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "15",
+                    "bottom": "15",
+                    "left": "15",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "57cfb60b",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null,
+                        "background_background": "classic",
+                        "background_color": "#000000",
+                        "margin": {
+                            "unit": "px",
+                            "top": "-100",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "50",
+                            "right": "50",
+                            "bottom": "50",
+                            "left": "50",
+                            "isLinked": true
+                        },
+                        "padding_tablet": {
+                            "unit": "px",
+                            "top": "35",
+                            "right": "35",
+                            "bottom": "35",
+                            "left": "35",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "1213761f",
+                            "settings": {
+                                "layout": "full_width",
+                                "structure": "40"
+                            },
+                            "elements": [
+                                {
+                                    "id": "6260ff8",
+                                    "settings": {
+                                        "_column_size": 25,
+                                        "_inline_size": null,
+                                        "_inline_size_tablet": 50,
+                                        "animation": "fadeInUp"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "1729db1",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "fas fa-microscope",
+                                                    "library": "fa-solid"
+                                                },
+                                                "size": {
+                                                    "unit": "px",
+                                                    "size": 45,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "primary_color": "globals\/colors?id=primary"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "70c5db9d",
+                                            "settings": {
+                                                "ending_number": 150,
+                                                "suffix": "+",
+                                                "title": "",
+                                                "number_color": "#FFFFFF",
+                                                "title_color": "#FFFFFF",
+                                                "__globals__": {
+                                                    "typography_number_typography": "globals\/typography?id=db48b8b",
+                                                    "typography_title_typography": "globals\/typography?id=accent"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "counter",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "13fc0000",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "",
+                                                    "library": ""
+                                                },
+                                                "title_text": "Singing Rooms",
+                                                "description_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                                                "title_size": "h5",
+                                                "title_bottom_space": {
+                                                    "unit": "px",
+                                                    "size": 5,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "title_color": "globals\/colors?id=primary",
+                                                    "title_typography_typography": "globals\/typography?id=b21c26e"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon-box",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "69f8fdee",
+                                    "settings": {
+                                        "_column_size": 25,
+                                        "_inline_size": null,
+                                        "_inline_size_tablet": 50,
+                                        "animation": "fadeInUp",
+                                        "animation_delay": 200
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "3da082c0",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "fas fa-medal",
+                                                    "library": "fa-solid"
+                                                },
+                                                "size": {
+                                                    "unit": "px",
+                                                    "size": 45,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "primary_color": "globals\/colors?id=primary"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "53247f39",
+                                            "settings": {
+                                                "ending_number": 25,
+                                                "suffix": "+",
+                                                "title": "",
+                                                "number_color": "#FFFFFF",
+                                                "title_color": "#FFFFFF",
+                                                "__globals__": {
+                                                    "typography_number_typography": "globals\/typography?id=db48b8b",
+                                                    "typography_title_typography": "globals\/typography?id=accent"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "counter",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "591c7522",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "",
+                                                    "library": ""
+                                                },
+                                                "title_text": "Our Archivements",
+                                                "description_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                                                "title_size": "h5",
+                                                "title_bottom_space": {
+                                                    "unit": "px",
+                                                    "size": 5,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "title_color": "globals\/colors?id=primary",
+                                                    "title_typography_typography": "globals\/typography?id=b21c26e"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon-box",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "1bb83d7b",
+                                    "settings": {
+                                        "_column_size": 25,
+                                        "_inline_size": null,
+                                        "_inline_size_tablet": 50,
+                                        "animation": "fadeInUp",
+                                        "animation_delay": 400
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "736f685b",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "fas fa-mask",
+                                                    "library": "fa-solid"
+                                                },
+                                                "size": {
+                                                    "unit": "px",
+                                                    "size": 45,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "primary_color": "globals\/colors?id=primary"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "642b9119",
+                                            "settings": {
+                                                "ending_number": 75,
+                                                "suffix": "+",
+                                                "title": "",
+                                                "number_color": "#FFFFFF",
+                                                "title_color": "#FFFFFF",
+                                                "__globals__": {
+                                                    "typography_number_typography": "globals\/typography?id=db48b8b",
+                                                    "typography_title_typography": "globals\/typography?id=accent"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "counter",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "2053c44a",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "",
+                                                    "library": ""
+                                                },
+                                                "title_text": "Official Artist",
+                                                "description_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                                                "title_size": "h5",
+                                                "title_bottom_space": {
+                                                    "unit": "px",
+                                                    "size": 5,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "title_color": "globals\/colors?id=primary",
+                                                    "title_typography_typography": "globals\/typography?id=b21c26e"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon-box",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "79f4a0f8",
+                                    "settings": {
+                                        "_column_size": 25,
+                                        "_inline_size": null,
+                                        "_inline_size_tablet": 50,
+                                        "animation": "fadeInUp",
+                                        "animation_delay": 600
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "507f64d6",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "fas fa-users",
+                                                    "library": "fa-solid"
+                                                },
+                                                "size": {
+                                                    "unit": "px",
+                                                    "size": 45,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "primary_color": "globals\/colors?id=primary"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "4a207ca7",
+                                            "settings": {
+                                                "ending_number": 2,
+                                                "suffix": "K",
+                                                "title": "",
+                                                "number_color": "#FFFFFF",
+                                                "title_color": "#FFFFFF",
+                                                "__globals__": {
+                                                    "typography_number_typography": "globals\/typography?id=db48b8b",
+                                                    "typography_title_typography": "globals\/typography?id=accent"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "counter",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "468031d9",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "",
+                                                    "library": ""
+                                                },
+                                                "title_text": "People a Day",
+                                                "description_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                                                "title_size": "h5",
+                                                "title_bottom_space": {
+                                                    "unit": "px",
+                                                    "size": 5,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "title_color": "globals\/colors?id=primary",
+                                                    "title_typography_typography": "globals\/typography?id=b21c26e"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon-box",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "71433252",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "50",
+                    "bottom": "100",
+                    "left": "50",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "15",
+                    "bottom": "50",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "gap": "no"
+            },
+            "elements": [
+                {
+                    "id": "681d1831",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "7a5c0530",
+                            "settings": {
+                                "gallery": [
+                                    {
+                                        "id": 305,
+                                        "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/cute-dj-woman-having-fun-playing-music-at-club-party.jpg"
+                                    },
+                                    {
+                                        "id": 262,
+                                        "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/colorful-portrait-in-blue-and-pink-ligth-of-a-young-dj-woman-wearing-headset-and-enjoying-an.jpg"
+                                    },
+                                    {
+                                        "id": 109,
+                                        "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/dance-club.jpg"
+                                    },
+                                    {
+                                        "id": 69,
+                                        "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/dj-in-nightclub.jpg"
+                                    },
+                                    {
+                                        "id": 90,
+                                        "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/group-of-young-intercultural-friends-singing-karaoke-while-sitting-on-couch.jpg"
+                                    },
+                                    {
+                                        "id": 59,
+                                        "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/dj-carnage.jpg"
+                                    },
+                                    {
+                                        "id": 307,
+                                        "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/dj-music-beautiful-girl-with-headphones.jpg"
+                                    },
+                                    {
+                                        "id": 304,
+                                        "url": "https:\/\/kit.wirastudio.co\/singsong\/wp-content\/uploads\/sites\/30\/2022\/03\/man-with-curly-hair-using-dj-equipment-and-standing-in-the-dark-neon-lighted-room.jpg"
+                                    }
+                                ],
+                                "galleries": [
+                                    {
+                                        "gallery_title": "New Gallery",
+                                        "_id": "4dd907a"
+                                    }
+                                ],
+                                "gallery_layout": "masonry",
+                                "columns": 3,
+                                "gap": {
+                                    "unit": "px",
+                                    "size": 25,
+                                    "sizes": []
+                                },
+                                "gap_tablet": {
+                                    "unit": "px",
+                                    "size": 25,
+                                    "sizes": []
+                                },
+                                "gap_mobile": {
+                                    "unit": "px",
+                                    "size": 25,
+                                    "sizes": []
+                                },
+                                "thumbnail_image_size": "full",
+                                "show_all_galleries_label": "All"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "gallery",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "21bcfdef",
+                            "settings": {
+                                "text": "Follow Us",
+                                "align": "center",
+                                "selected_icon": {
+                                    "value": "fab fa-instagram",
+                                    "library": "fa-brands"
+                                },
+                                "icon_indent": {
+                                    "unit": "px",
+                                    "size": 10,
+                                    "sizes": []
+                                },
+                                "hover_animation": "grow"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "button",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}

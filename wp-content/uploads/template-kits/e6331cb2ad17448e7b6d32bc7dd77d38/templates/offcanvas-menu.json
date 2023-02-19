@@ -1,0 +1,191 @@
+{
+    "version": "0.4",
+    "title": "Offcanvas Menu",
+    "type": "popup",
+    "metadata": {
+        "template_type": "section-popup",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "popup",
+        "additional_template_information": [
+            "This is a \"Popup\" template for Elementor Pro."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "62a6efaf",
+            "settings": {
+                "gap": "no",
+                "margin": {
+                    "unit": "px",
+                    "top": "50",
+                    "right": 0,
+                    "bottom": "0",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "35",
+                    "right": "35",
+                    "bottom": "35",
+                    "left": "35",
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "4cb8d164",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "18918d8",
+                            "settings": {
+                                "title": "Get Fast Reservation",
+                                "header_size": "span",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=accent",
+                                    "title_color": "globals\/colors?id=primary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "2bc35c29",
+                            "settings": {
+                                "title": "Lets Make an Quotation",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=c397194"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "1f16e41e",
+                            "settings": {
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=text"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "1f503a86",
+                            "settings": {
+                                "form_name": "New Form",
+                                "form_fields": [
+                                    {
+                                        "custom_id": "name",
+                                        "field_label": "Your Name",
+                                        "placeholder": "Your Name",
+                                        "_id": "a2ecf95"
+                                    },
+                                    {
+                                        "custom_id": "email",
+                                        "field_type": "email",
+                                        "required": "true",
+                                        "field_label": "Email Address",
+                                        "placeholder": "Email Address",
+                                        "_id": "45d6d0f"
+                                    },
+                                    {
+                                        "_id": "2adef50",
+                                        "field_type": "select",
+                                        "field_label": "Select Type",
+                                        "field_options": "Small Rooms\nMedium Rooms\nLarge Rooms\nSuper Rooms",
+                                        "custom_id": "field_2adef50"
+                                    },
+                                    {
+                                        "_id": "4e34fb1",
+                                        "field_type": "date",
+                                        "field_label": "Choose Date",
+                                        "placeholder": "Choose Date",
+                                        "custom_id": "field_4e34fb1"
+                                    },
+                                    {
+                                        "_id": "ec7d231",
+                                        "field_type": "time",
+                                        "field_label": "Choose Time",
+                                        "placeholder": "Choose Time",
+                                        "custom_id": "field_ec7d231"
+                                    }
+                                ],
+                                "show_labels": "",
+                                "button_align": "start",
+                                "step_next_label": "Next",
+                                "step_previous_label": "Previous",
+                                "button_text": "Get a Quotation",
+                                "email_content": "[all-fields]",
+                                "email_content_2": "[all-fields]",
+                                "success_message": "The form was sent successfully.",
+                                "error_message": "An error occurred.",
+                                "required_field_message": "This field is required.",
+                                "invalid_message": "There&#039;s something wrong. The form is invalid.",
+                                "column_gap": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "row_gap": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "field_background_color": "globals\/colors?id=50b2a21"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "form",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "width": {
+            "unit": "px",
+            "size": 500,
+            "sizes": []
+        },
+        "height_type": "fit_to_screen",
+        "horizontal_position": "right",
+        "background_background": "gradient",
+        "background_gradient_angle": {
+            "unit": "deg",
+            "size": 90,
+            "sizes": []
+        },
+        "__globals__": {
+            "background_color": "globals\/colors?id=secondary",
+            "background_color_b": "globals\/colors?id=7f20f40"
+        },
+        "entrance_animation": "fadeInRight",
+        "exit_animation": "fadeInRight",
+        "entrance_animation_duration": {
+            "unit": "px",
+            "size": 0.5,
+            "sizes": []
+        }
+    }
+}
